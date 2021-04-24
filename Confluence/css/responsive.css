@@ -1,0 +1,70 @@
+@media only screen and (max-width: 1150px){
+    .navbar{
+        flex-direction: column;
+    }
+    .navigation{
+        flex-direction: column;
+    }
+    .key{
+        flex-direction: column;
+    }
+    .loop{
+        margin-left: 0;
+    }
+    .root{
+        margin-right: 0;
+    }
+    .oop{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0; 
+        margin: 0;
+        box-sizing: border-box;
+        max-width: 250px;
+    }
+    .first{
+        display: inline-flex;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        max-width: 250px;
+    }
+    .ply{
+        margin-left: auto;
+    }
+    .first, .had, .hed, .pra, .ply{
+        flex-direction: column;
+        font-size: 10px;
+    }
+    .pra, .is{
+        max-width: 100px;
+    }
+    .imge{
+        flex-direction: column;
+    }
+    .bop, .new{
+        width: 250px;
+    }
+    .saw, .blen, .spot, .hop, .soon, .bore, .loom, .ban, .sat, .trust, .width, .sponsors, .spon, .keep, .mere, .fro, .bares, .fot{
+        flex-direction: column;
+    }
+    .once, .joke{
+        font-size: 20px;
+    }
+    .van, .scat, .joke{
+        width: 100px;
+    }
+    .mob{
+        max-width: 200px;
+    }
+    .sil{
+        max-width: 100px;
+    }
+    .head{
+        max-width: 200px;
+        font-size: 25px;
+        align-items: center;
+        justify-content: center;
+    }
+}

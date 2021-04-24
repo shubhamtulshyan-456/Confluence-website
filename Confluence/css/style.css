@@ -1,0 +1,670 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(252, 250, 250);
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(223, 217, 230);
+    width: 100%;
+    top: 0;
+    position: sticky;
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+}
+.key{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.class{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+    padding: 0 15px;
+}
+.item{
+    color: gray;
+}
+.item:hover{
+    color: blue;
+    border: none;
+    background-color: rgb(226, 219, 215);
+}
+.pool{
+    color: blue;
+}
+.pool:hover{
+    background-color: rgb(204, 201, 201);
+    border: none;
+}
+.none{
+    color: blue;
+}
+.none:hover{
+    border-bottom: 4px solid gray;
+}
+.loop{
+    margin-left: 600px;
+}
+.root{
+    margin-right: 600px;
+}
+.fa{
+    padding: 0 10px;
+}
+.free{
+    padding: 5px;
+    color: blue;
+    border: 1px solid blue;
+}
+.free:hover{
+    cursor: pointer;
+    background-color: rgb(219, 228, 218);
+}
+.section{
+    background-image: url(https://source.unsplash.com/1600x900/?classroom,stationary,white);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode:hard-light;
+    width: 100%;
+    display: flex;
+    padding: 25px 50px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    justify-content: center;
+}
+.head{
+    font-size: 50px;
+    max-width: 500px;
+    padding: 25px 50px;
+    color: black;
+}
+.para{
+    font-size: 25px;
+    max-width: 375px;
+    padding: 5px 50px;
+    color: black;
+}
+.get{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: yellow;
+    margin: 25px 50px;
+}
+.kit{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 25px 40px;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgb(200, 226, 224);
+    width: 100%;
+}
+.poo{
+    display: inline-flex;
+    flex-direction: row;
+    max-width: 450px;
+    padding: 25px;
+}
+.bop{
+    width: 500px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    border: none;
+    height: 200px;
+    background-color: white;
+    margin: 2px 75px;
+}
+.oop{
+    display: flex;
+    flex-direction: row;
+    padding: 25px 25px;
+    margin: 25px 25px;
+}
+.imge{
+    display: flex;
+    flex-direction: row;
+}
+/* .imge::after{
+    content: "";
+    display: block;
+
+} */
+.had{
+    font-size: 10px;
+    padding: 10px;
+}
+.hed{
+    font-size: 25px;
+    padding: 10px;
+}
+.pra{
+    max-width: 400px;
+    padding: 10px;
+}
+.ply{
+    display: inline-block;
+    margin-left: 350px;
+    padding: 10px;
+}
+.temp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: darkgray;
+    width: 100%;
+}
+.pole{
+    padding: 10px;
+}
+.nope{
+    padding: 10px;
+    max-width: 500px;
+}
+.zee{
+    padding: 10px;
+    text-decoration: none;
+}
+.long{
+    width: 400px;
+    height: 400px;
+}
+.short{
+    width: 100px;
+    height: 100px;
+}
+.saw{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+}
+.men{
+    font-size: 30px;
+    max-width: 500px;
+    box-sizing: inherit;
+    padding: 25px;
+}
+.blen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.spot{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.hop{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(233, 231, 231);
+}
+.san{
+    max-width: 300px;
+}
+.soon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bore{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    margin: 25px;
+}
+.loom{
+    display: flex;
+    flex-direction: row;
+}
+.ground{
+    width: 100px;
+    height: 30px;
+    margin: 25px;
+}
+.cool{
+    height: 50px;
+    width: 50px;
+    margin: auto 25px;
+}
+.cust{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ban{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.bord{
+    border: 1px solid gray;
+    width: 75%;
+}
+.port{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.tool{
+    font-size: 35px;
+    padding: 25px;
+}
+.badge{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.sop{
+    width: 180px;
+}
+.aws{
+    border: 1px solid gray;
+    width: 100%;
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+}
+.emmet{
+    display: inline;
+    flex-direction: column;
+}
+.once{
+    font-size: 30px;
+    padding: 10px;
+}
+.sat{
+    display: flex;
+    flex-direction: row;
+}
+.pot{
+    display: flex;
+    flex-direction: column;
+}
+.break{
+    display: flex;
+    flex-direction: column;
+}
+.team{
+    color: rgb(85, 82, 82);
+    padding: 0 10px;
+}
+.sil{
+    width: 300px;
+    color: rgb(85, 82, 82);
+    padding: 10px;
+}
+.moon{
+    padding: 0 10px;
+}
+.van{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 275px;
+}
+.fool{
+    border: 1px solid gray;
+    width: 100%;
+}
+.trust{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    background-color: gray;
+}
+.scat{
+    width: 300px;
+}
+.in{
+    font-size: 30px;
+    padding: 15px 0;
+}
+.is{
+    width: 500px;
+    padding: 15px 0;
+}
+.love{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.joke{
+    font-size: 30px;
+    padding: 15px;
+}
+.new{
+    width: 500px;
+    padding: 15px;
+}
+.sponsors, .spon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.width{
+    width: 125px;
+    height: 40px;
+    padding: 25px;
+    background-color: rgb(226, 223, 223);
+    margin: 5px;
+}
+.line{
+    text-decoration: none;
+}
+.keep{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-bottom: 0;
+    background-color: gainsboro;
+    width: 100%;
+}
+.tips{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.me{
+    width: 125px;
+    padding: 5px;
+    margin: 10px;
+}
+.star{
+    width: 100px;
+    height: 30px;
+}
+.finger{
+    font-size: 25px;
+    padding: 10px;
+}
+.noon{
+    width: 500px;
+    padding: 10px;
+}
+.field-required{
+    padding: 10px;
+}
+.phone{
+    padding: 10px;
+}
+.store{
+    padding: 10px;
+}
+.mob{
+    width: 500px;
+    height: auto;
+    background-color: white;
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    width: 100%;
+    background-color: rgb(233, 227, 227);
+}
+.sher{
+    padding: 10px;
+}
+.mere{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.fee{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 50px;
+    border: none;
+    background-color: rgb(240, 236, 236);
+    margin: 10px;
+}
+.dish{
+    font-weight: lighter;
+    font-size: 20px;
+    padding: 20px;
+    border-bottom: none;
+    background-color: gainsboro;
+    /* width: 100%; */
+}
+.kob{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.col{
+    font-size: 16px;
+}
+.axe{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.started{
+    padding: 5px;
+    color: blue;
+    border: 1px solid blue;
+    margin-bottom: 10px;
+}
+.started:hover{
+    cursor: pointer;
+}
+.born{
+    background-color: blue;
+    color: white;
+}
+.mun{
+    font-size: 13px;
+}
+.but{
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.sut{
+    text-decoration: none;
+}
+.sut:hover{
+    text-decoration: underline;
+}
+.larg{
+    background-color: rgb(240, 236, 236);
+    padding: 25px 115px;
+}
+.blue{
+    border: 1px solid blue;
+    width: 100%;
+}
+.how{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    color: white;
+    background-color: blue;
+    width: 100%;
+}
+.rans{
+    font-size: 40px;
+    padding: 5px;
+}
+.tare{
+    padding-bottom: 30px;
+}
+.bare{
+    background-color: yellow;
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+.sian{
+    width: 125px;
+    filter: invert(50%);
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.bares{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 25px;
+    /* align-items: center; */
+}
+.atlas{
+    display: flex;
+    flex-direction: column;
+    padding: 0 25px; 
+}
+.dare{
+    font-size: 15px;
+    padding: 10px 0;
+}
+.losses{
+    text-decoration: none;
+    color: rgb(82, 81, 81);
+}
+.shutup{
+    text-decoration: none;
+}
+.pos{
+    list-style: none;
+    padding: 5px 0;
+}
+.shutup{
+    padding: 5px 0;
+}
+.pos:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.product{
+    padding: 0 25px;
+}
+.zoo{
+    border: 1px solid gray;
+    width: 100%;
+}
+.fot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 25px;
+}
+.non{
+    border: none;
+    padding: 0;
+    color: gray;
+}
+.power{
+    list-style: none;
+}
+.pour{
+    text-decoration: none;
+    padding: 10px;
+}
+.writ{
+    padding: 10px;
+}
+.web{
+    background: none;
+    width: 25px;
+    filter: invert(25%);
+}
+.trus{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
